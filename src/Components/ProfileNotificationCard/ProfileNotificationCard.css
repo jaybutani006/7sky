@@ -1,0 +1,28 @@
+.ProfileNotificationCard {
+  display: flex;
+  border-bottom: 0.75px solid rgba(0, 0, 0, 0.2);
+  padding: 20px 0px;
+}
+
+.ProfileNotificationCard > p {
+  margin: auto;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  max-width: 60%;
+
+  color: #000000;
+}
+
+.ProfileNotificationCard > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.5);
+}

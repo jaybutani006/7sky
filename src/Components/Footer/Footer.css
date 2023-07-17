@@ -1,0 +1,122 @@
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 141, 166, 0.5) 0%,
+    rgba(253, 7, 7, 0.5) 100%
+  );
+  opacity: 0.7;
+  padding: 30px 50px;
+  max-width: 100vw;
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer__links > a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 8px;
+  text-decoration: none;
+  color: black;
+}
+
+h3.footer_h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+}
+
+.footer__contact_us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__contact_us > a {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: none;
+  color: black;
+}
+
+.footer__connect-us {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer__button {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  background-color: white;
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+}
+
+img.footer__logo {
+  height: 35px;
+  width: 35px;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.connect__linkes {
+  display: flex;
+  gap: 25px;
+}
+
+@media only screen and (max-width: 1300px) {
+  .footer {
+    max-width: 100vw;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer__connect-us {
+    margin-top: 30px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .footer {
+    grid-template-columns: 1fr;
+  }
+
+  .footer__links {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer__contact_us {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__connect-us {
+    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+  }
+}

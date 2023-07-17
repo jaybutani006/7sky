@@ -1,0 +1,29 @@
+.profile2 {
+  display: flex;
+  padding: 40px;
+  gap: 10px;
+}
+.profile2_left {
+  width: 65vw;
+}
+
+.profile2_right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.MuiTabList-indicator {
+  background-color: #cf166f;
+}
+
+@media only screen and (max-width: 1000px) {
+  .profile2_right {
+    display: none;
+  }
+  .profile2_left {
+    width: 90vw;
+    border: 1px solid black;
+    overflow: scroll;
+  }
+}

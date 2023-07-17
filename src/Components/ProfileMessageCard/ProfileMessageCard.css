@@ -1,0 +1,64 @@
+.profilemessagecard {
+  display: flex;
+  border-bottom: 0.75px solid rgba(0, 0, 0, 0.2);
+  padding: 20px 0px;
+  gap: 20px;
+}
+.profilemessagecard > img {
+  width: 50px;
+  height: 50px;
+}
+
+.profilemessage__details {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: flex-start;
+  gap: 3px;
+}
+
+p.profilemessage__name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  max-width: 60%;
+
+  color: #000000;
+}
+p.profilemessage__message {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.5);
+}
+.ProfileMessage__time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p.profilemessage_day {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.5);
+  margin: auto;
+}
+
+p.profilemessage_unread_messages {
+  background: linear-gradient(180deg, #cf166f 0%, rgba(227, 83, 63, 0.36) 100%);
+  margin: auto;
+  width: fit-content;
+  padding: 0 10px;
+  border-radius: 100%;
+  color: white;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}

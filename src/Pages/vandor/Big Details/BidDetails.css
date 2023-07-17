@@ -1,0 +1,20 @@
+.BigDetailsDate {
+  font-size: 20px;
+  font-weight: 600;
+  color: #f97096;
+}
+
+.attachments {
+  font-size: 20px;
+  font-weight: 500;
+  border: 1px solid #db446f;
+  padding: 20px 30px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+
+.ck.ck-editor__main > .ck-editor__editable:not(.ck-focused) {
+  border-color: var(--ck-color-base-border);
+  height: 200px !important;
+  color: rgb(170, 162, 162);
+}

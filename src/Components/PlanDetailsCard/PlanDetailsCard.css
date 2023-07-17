@@ -1,0 +1,84 @@
+.plancard {
+    background: url("../../Assets/profile2/img3.png");
+    border: 10px solid transparent;
+    border-radius: 30px;
+    background-position: center;
+    background-size: auto;
+    min-width: 210px;
+    max-width: 210px;
+    min-height: 400px;
+    max-height: 400px;
+}
+
+.plancard__wrapper {
+    padding: 20px;
+    border-radius: 30px;
+    background: white;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h3.plancard__heading {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.17em;
+}
+
+h3.plancard__heading>span {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.plancard>hr {
+    width: 70%;
+    border-bottom: 1px;
+    margin: 30px 0;
+}
+
+.plancard_pricing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.plancard_pricing>h4 {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.17em;
+}
+
+.plancard_pricing>p {
+    font-weight: 600;
+    font-size: 7px;
+    line-height: 8px;
+    letter-spacing: 0.17em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.plancard__details {
+    margin-bottom: 30px;
+}
+
+.plancard__details>p {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0.17em;
+    text-align: justify;
+}
+
+button.plancard__continue {
+    background: linear-gradient( 180deg, #f854e7 0%, rgba(248, 84, 113, 0.99) 100%);
+    border-radius: 40px;
+    height: 50px;
+    width: 70%;
+    border: none;
+}
+
+
+/* Carousel Styling */

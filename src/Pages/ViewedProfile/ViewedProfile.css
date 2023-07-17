@@ -1,0 +1,41 @@
+.viewedprofile {
+  padding: 55px;
+}
+
+.viewedprofile__top {
+  display: flex;
+  gap: 30px;
+}
+
+.viewedprofile__top_left {
+  flex: 1;
+}
+
+.viewedprofile__top_right {
+  flex: 1;
+}
+
+.viewedprofile {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.viewedprofile__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.viewedprofile__bottom_cards_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .viewedprofile__top_right {
+    display: none;
+  }
+}

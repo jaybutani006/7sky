@@ -1,0 +1,170 @@
+.carousel__card {
+  margin: 17.5px;
+
+  min-width: 300px;
+  max-width: 300px;
+  height: 400px;
+
+  background: #ffffff;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 0px 59.0146px;
+  transition: 0.5s all;
+  padding: 0 40px;
+
+  letter-spacing: 0.1em;
+}
+
+.active {
+  min-width: 300px;
+  max-width: 300px;
+  height: 462px;
+  background: linear-gradient(
+    180deg,
+    #f97096 11.11%,
+    rgba(207, 22, 111, 0.5) 100%
+  );
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 0px 0px 59.0146px;
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+img.card__logo {
+  margin-top: 45px;
+  width: 84.98px;
+  height: 87.68px;
+}
+
+.carousel__card > h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29.5073px;
+}
+
+.carousel__card > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 21.0766px;
+}
+
+/* .btn {
+  position: relative;
+  top: 50px;
+  left: 140px;
+  height: 50px;
+  width: 50px;
+} */
+.btn {
+  position: absolute;
+  right: 50px;
+  bottom: 10%;
+}
+
+.btn_right {
+  margin-left: 30px;
+}
+.btn_left {
+  right: 150px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+  .carousel__card {
+    min-width: 200px;
+    max-width: 200px;
+    height: 300px;
+    line-height: 25px;
+  }
+
+  img.card__logo {
+    margin-top: 20px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .active {
+    min-width: 200px;
+    max-width: 200px;
+    height: 362px;
+  }
+
+  .carousel__card > h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .carousel__card > p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0em;
+  }
+  .btn {
+    position: absolute;
+    right: 50px;
+    bottom: 10%;
+  }
+
+  .btn_right {
+    margin-left: 30px;
+  }
+  .btn_left {
+    right: 150px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel__card {
+    min-width: 150px;
+    max-width: 150px;
+    height: 200px;
+    line-height: 20px;
+  }
+
+  img.card__logo {
+    margin-top: 15px;
+    width: 30px;
+    height: 30px;
+  }
+
+  .active {
+    min-width: 150px;
+    max-width: 150px;
+    height: 262px;
+  }
+
+  .carousel__card > h4 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .carousel__card > p {
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 0em;
+  }
+  .btn {
+    position: absolute;
+    right: 50px;
+    bottom: 10%;
+    height: 40px;
+    width: 40px;
+  }
+
+  .btn_right {
+    margin-left: 30px;
+  }
+  .btn_left {
+    right: 120px;
+  }
+}

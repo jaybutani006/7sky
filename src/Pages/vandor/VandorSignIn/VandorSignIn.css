@@ -1,0 +1,74 @@
+.left_div {
+  height: 500px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 141, 166, 0.3) 0%,
+    rgba(253, 7, 7, 0.3) 100%
+  );
+  border-radius: 15px;
+  display: grid;
+  place-items: center;
+}
+
+.left_div_mainText {
+  font-size: 35px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.right_div_mainText {
+  background: linear-gradient(
+    180deg,
+    #f97096 16.59%,
+    rgba(253, 7, 7, 0.8) 99.79%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  font-size: 35px;
+  font-weight: 600;
+  text-align: center;
+}
+
+#inputPassword5 {
+  height: 35px;
+  margin-bottom: 20px;
+}
+
+.VandorLogInBtn {
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  color: white;
+  width: 170px;
+  height: 50px;
+  border: none;
+  border-radius: 50px;
+  text-align: center;
+  padding: 11px;
+  cursor: pointer;
+  background: linear-gradient(
+    180deg,
+    rgba(253, 7, 7, 0.8) 16.59%,
+    #f97096 99.79%
+  );
+}
+
+.VandorForgotPass {
+  background: linear-gradient(
+    180deg,
+    #f97096 16.59%,
+    rgba(253, 7, 7, 0.8) 99.79%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form-control:focus {
+  border-color: lightgray !important;
+  box-shadow: none !important;
+}

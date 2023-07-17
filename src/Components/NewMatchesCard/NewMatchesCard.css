@@ -1,0 +1,131 @@
+/* .newmatchescard {
+  max-width: 150px;
+  min-width: 150px;
+  max-height: 220px;
+  min-height: 220px;
+
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+
+  background: #ffffff;
+  box-shadow: 1.853971px 1.853971px 5.26986px rgba(0, 0, 0, 0.25);
+  border-radius: 8.53971px;
+}
+
+.newmatchescard_location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.newmatchescard_location > h4 {
+  font-weight: 500;
+  font-size: 11.9556px;
+  line-height: 18px;
+}
+.newmatchescard > img {
+  height: 70px;
+  width: 70px;
+}
+
+.newmatchescard_intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newmatchescard_intro > p {
+  font-weight: 500;
+  font-size: 12.8096px;
+  line-height: 19px;
+}
+
+span.newmatchescard_height {
+  color: rgba(0, 0, 0, 0.5);
+}
+button.newmatchescard_connect_button {
+  background: white;
+  border-radius: 42.6986px;
+  width: 80%;
+  height: 30px;
+  border: 1px solid rgba(207, 22, 111, 0.5);
+  border-top: 2px solid rgba(207, 22, 111, 0.5);
+}
+button.newmatchescard_connect_button:hover {
+  cursor: pointer;
+} */
+
+.newmatchescard {
+    max-width: 180px;
+    min-width: 180px;
+    max-height: 280px;
+    min-height: 250px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    background: #ffffff;
+    box-shadow: 1.853971px 1.853971px 5.26986px rgba(0, 0, 0, 0.25);
+    border-radius: 8.53971px;
+}
+
+.newmatchescard_location {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.newmatchescard_location>h4 {
+    font-weight: 500;
+    font-size: 11.9556px;
+    line-height: 18px;
+}
+
+.newmatchescard>img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+
+.newmatches_profile {
+    margin-top: -15px;
+}
+
+.newmatchescard_intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newmatchescard_intro>p {
+    font-weight: 500;
+    font-size: 12.8096px;
+    line-height: 10px;
+}
+
+span.newmatchescard_height {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.newmatchescard_connect_button {
+    margin-top: -10px;
+}
+
+button.newmatchescard_connect_button {
+    background: white;
+    border-radius: 42.6986px;
+    width: 80%;
+    height: 30px;
+    border: 1px solid rgba(207, 22, 111, 0.5);
+    border-top: 2px solid rgba(207, 22, 111, 0.5);
+    /* background: linear-gradient(180deg, #cf166f 0%, rgba(227, 83, 63, 0.36) 100%); */
+}
+
+button.newmatchescard_connect_button:hover {
+    cursor: pointer;
+}

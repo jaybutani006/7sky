@@ -1,0 +1,271 @@
+/* .container__wrapper {
+  padding: 10px 70px 50px 65px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 27px;
+  letter-spacing: 0.1em;
+}
+
+.container__wrapper > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: #cf166f;
+  margin: 0;
+}
+.container > p {
+  margin-bottom: 50px;
+  text-align: justify;
+  color: rgba(0, 0, 0, 0.5);
+}
+.container > h2 {
+  color: #cf166f;
+  margin: 20px 0px;
+  font-size: 30px;
+  line-height: 40px;
+  text-align: center;
+}
+h2.say_hello {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 60px;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+h3.container__heading {
+  color: #cf166f;
+}
+.accordion_summary {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+}
+
+.contact__container {
+  background: url("../Assets/contactMap.png");
+  background-position: center;
+  background-size: cover;
+}
+
+p.accordion_details {
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 20px;
+  line-height: 30px;
+
+  letter-spacing: 0.1em;
+}
+
+.contact_us_icons {
+  position: absolute;
+  right: 27%;
+  bottom: 10%;
+  display: flex;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .container > h2 {
+    font-size: 30px;
+  }
+  .contact_us_icons {
+    position: inherit;
+    display: flex;
+    gap: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container__wrapper {
+    margin: 40px;
+    gap: 50px;
+    padding: 10px;
+  }
+  .container__wrapper > span {
+    font-size: 18px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+  }
+  .accordion_summary {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .contact__container {
+    display: flex;
+    flex-direction: column;
+    background-position: 60%;
+  }
+
+  .contact_us_icons {
+    position: inherit;
+    display: flex;
+    gap: 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .container__wrapper {
+    margin: 10px;
+    gap: 50px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .container > h2 {
+    font-size: 25px;
+  }
+  .contact__container {
+    background: none;
+    align-items: center;
+    justify-content: center;
+  }
+} */
+
+.container__wrapper {
+    padding: 10px 70px 50px 65px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+}
+
+.container__wrapper>span {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #cf166f;
+    margin: 0;
+}
+
+.container>p {
+    margin-bottom: 50px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.container>h2 {
+    color: #cf166f;
+    margin: 20px 0px;
+    font-size: 30px;
+    line-height: 40px;
+    text-align: center;
+}
+
+h2.say_hello {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.1em;
+    color: #000000;
+}
+
+h3.container__heading {
+    color: #cf166f;
+}
+
+.accordion_summary {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+}
+
+.contact__container {
+    background: url("../Assets/contactMap.png");
+    background-position: center;
+    background-size: cover;
+}
+
+p.accordion_details {
+    font-family: "Poppins";
+    font-style: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+}
+
+.contact_us_icons {
+    position: absolute;
+    right: 27%;
+    bottom: 10%;
+    display: flex;
+    gap: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+    .container>h2 {
+        font-size: 30px;
+    }
+    .contact_us_icons {
+        position: inherit;
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container__wrapper {
+        margin: 40px;
+        gap: 50px;
+        padding: 10px;
+    }
+    .container__wrapper>span {
+        font-size: 18px;
+        line-height: 38px;
+        letter-spacing: 0.1em;
+    }
+    .accordion_summary {
+        font-size: 15px;
+        line-height: 20px;
+    }
+    .contact__container {
+        display: flex;
+        flex-direction: column;
+        background-position: 60%;
+    }
+    .contact_us_icons {
+        position: inherit;
+        display: flex;
+        gap: 20px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container__wrapper {
+        margin: 10px;
+        gap: 50px;
+        padding: 10px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .container>h2 {
+        font-size: 25px;
+    }
+    .contact__container {
+        background: none;
+        align-items: center;
+        justify-content: center;
+    }
+}

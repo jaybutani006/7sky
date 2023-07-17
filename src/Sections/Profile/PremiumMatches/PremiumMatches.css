@@ -1,0 +1,115 @@
+/* .profile__premium_matches {
+  display: flex;
+  flex-direction: column;
+  max-width: 90vw;
+  min-width: 90vw;
+  gap: 20px;
+}
+
+.profile__premium_matches_heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile__premium_matches_heading > h3 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.profile__premium_matches_heading > h3 > span {
+  color: #cf166f;
+}
+.profile__premium_matches_icon {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 10px;
+  border-radius: 50%;
+  border: 1px solid #cf166f;
+}
+
+.profile__premium_matches_icon:hover {
+  cursor: pointer;
+}
+
+.profile__premium_matches_icon_wrapper {
+  display: flex;
+  gap: 20px;
+}
+
+.profile__premium_matches_wrapper {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  padding: 10px 0;
+}
+.profile__premium_matches_wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .profile__premium_matches {
+    max-width: 90vw;
+  }
+} */
+
+.profile__premium_matches {
+    display: flex;
+    flex-direction: column;
+    max-width: 90vw;
+    min-width: 90vw;
+    gap: 20px;
+}
+
+.profile__premium_matches_heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profile__premium_matches_heading>h3 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: -10px;
+}
+
+.profile__premium_matches_heading>h3>span {
+    color: #cf166f;
+}
+
+.profile__premium_matches_icon {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    /* padding: 10px; */
+    border-radius: 50%;
+    border: 1px solid #cf166f;
+    box-sizing: content-box;
+}
+
+.profile__premium_matches_icon:hover {
+    cursor: pointer;
+}
+
+.profile__premium_matches_icon_wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.profile__premium_matches_wrapper {
+    display: flex;
+    gap: 20px;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    padding: 10px 0;
+}
+
+.profile__premium_matches_wrapper::-webkit-scrollbar {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .profile__premium_matches {
+        max-width: 90vw;
+    }
+}

@@ -1,0 +1,183 @@
+.imgcarousel {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90vw;
+  min-height: 70vh;
+}
+
+.imgcarousel__images__wrapper {
+  width: 50%;
+  margin-left: 10%;
+  height: 40vh;
+}
+
+.imgcarousel__images {
+  width: 40%;
+  height: 100%;
+
+  background: linear-gradient(
+    180deg,
+    rgba(253, 7, 7, 0.5) 0%,
+    rgba(207, 22, 111, 0.5) 100%
+  );
+  border-radius: 34.2926px;
+  position: relative;
+}
+img.carousel__img {
+  height: 50vh;
+  position: absolute;
+  left: -30px;
+  top: -30px;
+  transition: 1s all;
+}
+
+.imgcarousel__content__wrapper {
+  width: 50%;
+  display: flex;
+  overflow-x: hidden;
+  padding: 30px;
+  gap: 50px;
+  scroll-behavior: smooth;
+  align-items: center;
+}
+
+.imgcarousel__content {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  height: 50%;
+  flex: 1;
+}
+
+.imgcarousel__content > h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 45px;
+  /* identical to box height */
+
+  text-align: center;
+}
+
+.imgcarousel__content > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 38px;
+  text-align: center;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.imgcarousel_btn {
+  position: absolute;
+  left: 350px;
+  top: 300px;
+}
+.imgcarousel_btn:hover {
+  cursor: pointer;
+}
+
+.imgcarousel_btn_right {
+  margin-left: 80px;
+  top: 250px;
+}
+.imgcarousel_btn_left {
+}
+
+@media only screen and (max-width: 1300px) {
+  .imgcarousel {
+    padding-right: 0;
+    justify-content: start;
+  }
+  .imgcarousel__images {
+    width: 120.66px;
+    height: 241.82px;
+    z-index: 1;
+  }
+
+  img.carousel__img {
+    height: 300px;
+  }
+
+  .imgcarousel_btn {
+    position: absolute;
+    left: 200px;
+    top: 200px;
+  }
+  .imgcarousel_btn_right {
+    margin-left: 80px;
+    top: 150px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .imgcarousel__content > h2 {
+    font-size: 30px;
+    line-height: 18px;
+    /* identical to box height */
+  }
+
+  .imgcarousel__content > p {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 20px;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .imgcarousel__content__wrapper {
+    padding: 0px;
+  }
+
+  .imgcarousel {
+    flex-direction: column;
+    padding: 0;
+    padding-top: 10px;
+  }
+
+  .imgcarousel__images_background {
+    position: absolute;
+    width: 200.66px;
+    height: 250.82px;
+    left: 25%;
+    bottom: 50%;
+  }
+  .imgcarousel__images {
+    height: 250px;
+  }
+
+  img.carousel__img {
+    height: 300px;
+    top: -20px;
+  }
+  .imgcarousel__content__wrapper {
+    margin-top: 40px;
+    width: 100%;
+    height: 50%;
+  }
+
+  .imgcarousel_btn {
+    height: 40px;
+    width: 40px;
+    left: 200px;
+    top: 200px;
+  }
+  .imgcarousel_btn_right {
+    margin-left: 40px;
+    top: 170px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .imgcarousel__images__wrapper {
+    width: 100%;
+    height: inherit;
+  }
+  .imgcarousel__images {
+    left: 10%;
+  }
+}

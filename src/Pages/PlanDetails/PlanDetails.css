@@ -1,0 +1,140 @@
+.plandetails {
+  display: flex;
+  padding: 55px;
+}
+
+.plandetails__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  flex: 1;
+}
+
+.plandetails__left > p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.plandetails__right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  flex: 3;
+}
+
+.plandetails__right > p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  width: 100%;
+  text-align: end;
+}
+
+.plandetails__payment_form {
+  background: #ffffff;
+  box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.25),
+    2px 2px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+
+  width: 95%;
+
+  min-height: 400px;
+  padding: 20px;
+
+  display: flex;
+  gap: 10px;
+}
+
+.plandetails__payment_form_left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex: 1;
+}
+
+.plandetails_radio_wrapper {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.plandetails_radio_wrapper > p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.7);
+}
+
+input[type="radio"] {
+  height: 20px;
+  width: 20px;
+}
+
+.plandetails__payment_form_right {
+  flex: 2;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input.plandetails__payment_form_right_input {
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 5px;
+  border: none;
+  padding: 3px 5px;
+}
+
+input[type="month"] {
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 5px;
+  border: none;
+  padding: 3px 5px;
+}
+input[type="number"] {
+  background: rgba(217, 217, 217, 0.5);
+  border-radius: 5px;
+  border: none;
+  padding: 3px 5px;
+}
+
+.plandetails__payment_form_right > div {
+  display: flex;
+  gap: 20px;
+}
+
+.expiry,
+.cvv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+button.payment {
+  background: linear-gradient(
+    180deg,
+    rgba(207, 22, 111, 0.5) 0%,
+    rgba(253, 7, 7, 0.5) 100%
+  );
+  border-radius: 10px;
+  height: 35px;
+  width: 100%;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+p.payment_safty {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.7);
+}

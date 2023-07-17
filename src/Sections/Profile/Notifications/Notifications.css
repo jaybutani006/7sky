@@ -1,0 +1,77 @@
+.profile__notification {
+  background: #ffffff;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+  margin: 10px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 10px;
+
+  transition: 1s all;
+}
+
+.notification__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notification__header_details > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 15px;
+  /* identical to box height */
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.notification__header_details > h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height */
+
+  color: #000000;
+}
+.notification__header_details > h3 > span {
+  background: linear-gradient(92.98deg, #5c0340 14.62%, #cf166f 117.57%);
+  border-radius: 50px;
+  color: white;
+  padding: 2px 10px;
+}
+
+button.notification__view_all {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+
+  color: #a31447;
+  background: none;
+  border: none;
+}
+
+button.notification__view_all:hover {
+  cursor: pointer;
+}
+
+.profile__notifications_wrapper {
+  max-height: 235px;
+  overflow: hidden;
+  transition: 0.5s all;
+}
+
+.profile__notifications_wrapper_full {
+  max-height: 500px;
+  overflow: scroll;
+}
+
+.profile__notifications_wrapper::-webkit-scrollbar {
+  display: none;
+}

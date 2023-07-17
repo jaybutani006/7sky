@@ -1,0 +1,56 @@
+.latestProfileCard {
+  height: 50%;
+  background-color: pink;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  width: auto;
+  width: 15vw;
+  min-height: 300px;
+  max-height: 300px;
+  border-radius: 20px;
+}
+.latestProfileCard > img {
+  width: 80%;
+  margin: 10px auto;
+}
+
+.latestProfileCard > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  padding: 0 20px;
+}
+
+.latestProfileCard > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: 0.1em;
+  padding: 0 20px;
+  color: #cf166f;
+}
+
+@media only screen and (max-width: 1000px) {
+  .latestProfileCard {
+    width: 25vw;
+  }
+  .latestProfileCard > img {
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .latestProfileCard {
+    width: 40vw;
+  }
+  .latestProfileCard > img {
+    margin: 10px auto;
+  }
+}

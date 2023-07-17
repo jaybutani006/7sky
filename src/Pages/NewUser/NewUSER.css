@@ -1,0 +1,13 @@
+@media only screen and (min-width: 425px) {
+    .login {
+        width: 78%;
+        height: 79%;
+        margin-top: 54px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .login {
+        width: 38%;
+    }
+}

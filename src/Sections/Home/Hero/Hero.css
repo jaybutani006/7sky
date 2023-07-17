@@ -1,0 +1,377 @@
+.hero {
+  display: flex;
+  max-width: 100%;
+  overflow: hidden;
+  min-height: 100vh;
+  align-items: center;
+  padding-left: 15px;
+}
+
+.hero__intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding: 50px;
+  max-width: 50vw;
+}
+img.hero__pizza {
+  height: 80px;
+  width: 80px;
+  position: relative;
+  left: 300px;
+  bottom: 350px;
+}
+img.hero__message {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  left: -80px;
+  bottom: 100px;
+}
+
+.hero__groups {
+  position: relative;
+  max-width: 50vw;
+  display: flex;
+  justify-content: space-around;
+  top: 80px;
+}
+
+.hero__group {
+  display: flex;
+  gap: 10px;
+}
+.hero__group > img {
+  height: 30px;
+  width: 30px;
+}
+.hero__group > p {
+  max-width: 100px;
+  flex-wrap: wrap;
+  font-weight: 600;
+  font-family: "poppins";
+}
+
+.hero__intro > h3 {
+  width: 216px;
+  margin: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29.6046px;
+  line-height: 44px;
+  padding: 0;
+  color: #000000;
+}
+
+h2.hero__h2 {
+  margin-left: 0;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 65px;
+  letter-spacing: 0.1em;
+  width: 400px;
+  color: #000000;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 78.9455px;
+  letter-spacing: 0.1em;
+
+  background: linear-gradient(
+    91.6deg,
+    #cf166f 4.86%,
+    #3c0a53 34.48%,
+    #fd0707 62.92%,
+    rgba(220, 5, 255, 0.68) 101.52%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  position: relative;
+  top: -25px;
+  width: 500px;
+}
+
+.hero__images {
+  flex: 1;
+  display: flex;
+  height: 50%;
+  margin-top: 30px;
+}
+.image__wrapper {
+  max-width: 50vw;
+  display: flex;
+}
+
+.hero__box {
+  width: 263px;
+  height: 326px;
+  border-radius: 20px;
+  transform: rotate(-7.68deg);
+  position: relative;
+}
+
+.hero__box > img {
+  width: 90%;
+  height: 226.16px;
+  border: 5px solid #ffffff;
+  border-radius: 20px;
+  margin-left: 3%;
+  margin-top: 5px;
+  background-size: cover;
+  background-position: center;
+}
+
+.blue {
+  background: #158ed5;
+}
+
+.dark_pink {
+  background: #cf166f;
+  left: -150px;
+}
+.pink {
+  background: rgba(253, 7, 7, 0.5);
+  transform: rotate(13.3deg);
+  z-index: -1;
+  margin-top: 100px;
+  top: -20px;
+  left: -50px;
+}
+.blue > .img {
+  background: url("../../../Assets/Hero//img1.jpg");
+}
+.pink > .img {
+  background: url("../../../Assets/Hero//img2.jpg");
+  margin: auto;
+}
+.dark_pink > .img {
+  background: url("../../../Assets/Hero//img2.jpg");
+  margin: auto;
+}
+
+h3.hero__img__tag {
+  width: 233px;
+  height: 39px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  margin: 20px auto;
+  text-align: center;
+  color: #ffffff;
+}
+
+.hero__logo__images {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1300px) {
+  h1 {
+    width: 100%;
+  }
+  .hero {
+    flex-direction: row;
+    align-items: center;
+    height: fit-content;
+    padding: 30px;
+  }
+  .hero__intro > h3 {
+    width: 216px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25.6046px;
+    line-height: 44px;
+    padding: 0;
+    color: #000000;
+  }
+
+  h2.hero__h2 {
+    margin-left: 0;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 800;
+    font-size: 55px;
+    letter-spacing: 0.1em;
+    width: 400px;
+    color: #000000;
+  }
+
+  h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 70.9455px;
+    letter-spacing: 0.1em;
+
+    background: linear-gradient(
+      91.6deg,
+      #cf166f 4.86%,
+      #3c0a53 34.48%,
+      #fd0707 62.92%,
+      rgba(220, 5, 255, 0.68) 101.52%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    position: relative;
+    top: -25px;
+    width: 500px;
+  }
+
+  .hero__box {
+    width: 163px;
+    height: 226px;
+  }
+
+  .hero__box > img {
+    width: 150px;
+    height: 150.16px;
+    margin-left: 3px;
+    margin-top: 3px;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+  }
+
+  h3.hero__img__tag {
+    width: 150px;
+    height: 39px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 0px auto;
+    text-align: center;
+    letter-spacing: 0em;
+  }
+  img.hero__pizza {
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    left: 70%;
+    top: 20%;
+  }
+  img.hero__message {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+  }
+  h2.hero__h2 {
+    font-size: 50px;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  .hero__groups {
+    top: 80px;
+    max-width: 80vw;
+    gap: 1rem;
+  }
+
+  img.hero__pizza {
+    position: absolute;
+    left: 70%;
+    top: 20%;
+  }
+  img.hero__message {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+  .hero__box {
+    width: 163px;
+    height: 226px;
+  }
+
+  .hero__box > img {
+    width: 150px;
+    height: 150.16px;
+    margin-left: 3px;
+    margin-top: 3px;
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+  }
+  h3.hero__img__tag {
+    width: 150px;
+    height: 39px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 29px;
+    margin: 0px auto;
+    text-align: center;
+    letter-spacing: 0em;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hero {
+    width: 100vw;
+    gap: 1rem;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: center;
+    padding: 0px;
+  }
+  .hero__intro {
+    max-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0;
+  }
+
+  .hero__intro > h3 {
+    width: 100%;
+  }
+
+  h2.hero__h2 {
+    font-size: 40px;
+  }
+
+  h1 {
+    font-size: 50px;
+    width: 100%;
+    text-align: center;
+    top: -15px;
+  }
+
+  .hero__groups {
+    position: inherit;
+    width: 100vw;
+  }
+  img.hero__message {
+    position: inherit;
+  }
+  img.hero__pizza {
+    position: inherit;
+  }
+  .hero__images {
+    margin: 0;
+  }
+}

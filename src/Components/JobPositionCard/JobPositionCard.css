@@ -1,0 +1,49 @@
+.jobpositioncard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+  border: 1px solid gray;
+  padding: 0 30px;
+  border-radius: 10px;
+  min-height: 80px;
+}
+h3.job__title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.1em;
+
+  color: #000000;
+}
+span.job__details {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  color: rgba(0, 0, 0, 0.5);
+}
+button.apply__now__button {
+  background: linear-gradient(92.98deg, #5c0340 14.62%, #cf166f 117.57%);
+  border-radius: 10px;
+  border: none;
+  font-family: "Poppins";
+  font-style: normal;
+  width: 150px;
+  height: 35px;
+  letter-spacing: 0.1em;
+}
+button.apply__now__button > a {
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  .jobpositioncard {
+    flex-direction: column;
+    min-height: 150px;
+    justify-content: space-around;
+  }
+}

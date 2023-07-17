@@ -1,0 +1,162 @@
+.download {
+  background-color: #edf4f8;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 515px;
+  overflow: hidden;
+  padding: 0 10%;
+}
+
+.download__information {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+}
+
+.download__information > h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.download__information > h2 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 50px;
+}
+.download__information > h2 > span {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.download__buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.download__button {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 10px;
+  background-color: white;
+  height: 65px;
+  width: 220px;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.download__button__content > span {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+
+  letter-spacing: 0.1em;
+
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.download__button__content > p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  /* identical to box height */
+
+  letter-spacing: 0.1em;
+}
+
+.download__logo {
+  height: 20px;
+  width: 20px;
+}
+
+.download__images {
+  width: min-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img.phone1 {
+  position: relative;
+}
+
+img.grp {
+  position: relative;
+  top: 100px;
+  left: 70px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .download__information > h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+  .download__information > h2 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+  }
+  .download__information > h2 > span {
+    font-weight: 400;
+    font-size: 15px;
+  }
+
+  .download__button {
+    height: 55px;
+    width: 140px;
+  }
+
+  .download__button__content > span {
+    font-size: 9px;
+    line-height: 18px;
+
+    letter-spacing: 0em;
+  }
+
+  .download__button__content > p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 12px;
+    letter-spacing: 0em;
+  }
+
+  img.phone1 {
+    height: 50vh;
+  }
+  img.grp {
+    height: 70vh;
+    top: 80px;
+    left: 40px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .download {
+    flex-direction: column;
+  }
+  .download__information > h3 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .download__information > h2 {
+    width: 100%;
+    text-align: center;
+  }
+}

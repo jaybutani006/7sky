@@ -1,0 +1,151 @@
+.selectplan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+}
+
+.selectplan__upper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selectplan__upper>p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    letter-spacing: 0.1em;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.selectplan__upper>h2 {
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 65px;
+}
+
+.selectplan__upper>h2>span {
+    background: linear-gradient(180deg, #cf166f 0%, rgba(253, 7, 7, 0.33) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.selectplan__middle {
+    min-width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.selectplan__middle_radios {
+    display: flex;
+    gap: 20px;
+}
+
+.selectplan__middle_radio_wrapper {
+    display: flex;
+    gap: 20px;
+}
+
+.selectplan_messages_search_input_wrapper {
+    display: flex;
+    padding: 5px 20px;
+    align-items: center;
+    gap: 10px;
+    border: 2px solid #dfbef6;
+    border-radius: 50px;
+    /* background: #d9d9d9; */
+    width: 80%;
+    /* border: 1px solid #dfbef6; */
+}
+
+.selectplan_messages_search_input_wrapper>input {
+    border: none;
+    /* background: #d9d9d9; */
+}
+
+.selectplan__lower {
+    display: flex;
+    gap: 30px;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.selectplan__lower::-webkit-scrollbar {
+    width: 0;
+}
+
+
+/* for plan card  */
+
+.plan_backg {
+    /* background: url("../../Assets/profile2/img3.png"); */
+    /* background-repeat: no-repeat; */
+    height: 480px;
+    /* background-size: contain; */
+    width: 230px;
+    background-position: center;
+    border-radius: 25px;
+    background-color: #dfbef6;
+    opacity: 1;
+    /* -webkit-filter: blur(0px); */
+    box-shadow: -1px 7px 20px 0px #dfbef6;
+}
+
+.plan_card_content {
+    /* background-color: white; */
+    height: 100%;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.plan_header_card p {
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 8px;
+    letter-spacing: 0.17em;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.plan_header_card h5 {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.17em;
+}
+
+.plan_body_card h4 {
+    font-weight: 600;
+    font-size: 11px;
+    line-height: 18px;
+    letter-spacing: 0.17em;
+}
+
+.plan_btn_footer button {
+    /* background: linear-gradient( 180deg, #f854e7 0%, rgba(248, 84, 113, 0.99) 100%); */
+    background: linear-gradient( 180deg, #f854e7 0%, rgb(239 173 164 / 99%) 100%);
+    border-radius: 40px;
+    height: 35px;
+    width: 70%;
+    border: none;
+}
+
+
+/* background-color: #dfbef6; */
+
+
+/* opacity: 1;
+
+/* -webkit-filter: blur(0px); */
+
+
+/* box-shadow: -1px 7px 20px 0px #dfbef6; */
+
+
+/* box-shadow: -1px 7px 20px 0px #dfbef6; */

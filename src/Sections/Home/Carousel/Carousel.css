@@ -1,0 +1,97 @@
+/* .carousel {
+  position: relative;
+  overflow: hidden;
+  max-width: 100%;
+  height: 550px;
+  margin: 50px 0;
+}
+
+.carousel_container {
+  display: flex;
+  justify-content: flex-start;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  padding-right: 50px;
+}
+
+.hide {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .carousel {
+    height: 450px;
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .carousel {
+    height: 350px;
+  }
+} */
+
+.carousel {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    height: 620px;
+    margin: 50px 0;
+}
+
+.carousel_container {
+    display: flex;
+    justify-content: flex-start;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    padding-right: 50px;
+}
+
+.hide {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+    .carousel {
+        height: 450px;
+        padding-right: 0;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .carousel {
+        height: 350px;
+    }
+}
+
+@media (min-width: 425px) {
+    .carousel {
+        height: 70vh;
+    }
+    .carousel__card {
+        width: 50%;
+        /* height: 40vh; */
+    }
+    #card__height {
+        width: 300px;
+    }
+    .btns {
+        background-color: black;
+        margin-top: 500px;
+    }
+    /* .carousel_container {
+    margin-top: -100px;
+  } */
+}
+
+@media (min-width: 1024px) {
+    .carousel {
+        height: 100vh;
+    }
+}
+
+@media (min-width: 768px) {
+    #btn {
+        top: -1000px !important;
+    }
+}

@@ -1,0 +1,23 @@
+#tabpanel1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h2.open__positions {
+  text-align: center;
+}
+
+.job_accordion_details {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.jovaccordion_details_section > h2 {
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+
+  color: #cf166f;
+}
